@@ -6,7 +6,7 @@ pipeline {
   stages {         
     stage("Git Checkout"){           
       steps{                
-	git credentialsId: 'github', url: 'https://github.com/rohithk2301/dec_pipeline_dockerimage.git'                 
+	git credentialsId: 'github', url: 'https://github.com/rohithk2301/dec_pipeline_dockerimage/blob/development/jenkinsfile'                 
 	echo 'Git Checkout Completed'            
       }        
     }
