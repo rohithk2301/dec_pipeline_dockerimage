@@ -29,6 +29,4 @@ pipeline {
 	sh 'sudo docker push rohithk2301/dec_pipeline_dockerimage:$BUILD_NUMBER'                 echo 'Push Image Completed'       
       }           
     }      
-
-
 }
